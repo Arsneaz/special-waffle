@@ -1,5 +1,5 @@
 <?php
-    include('../config/connection.php');
+    include(__DIR__. '/../config/connection.php');
 
     // Fetch the current user's data for pre-filling the form
     $nimToUpdate = $_GET['nim']; // Assuming you pass the student ID in the URL

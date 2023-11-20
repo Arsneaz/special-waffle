@@ -34,9 +34,9 @@
     ?>
     <table>
         <tr>
-            <th>Student ID</th>
+            <th>NIM</th>
             <th>Name</th>
-            <th>Department</th>
+            <th>Jurusan</th>
             <th>Action</th>
         </tr>
 

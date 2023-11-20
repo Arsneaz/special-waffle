@@ -1,6 +1,6 @@
 <?php
 // Include your database connection file
-include('../config/connection.php');
+include(__DIR__. '/../config/connection.php');
 
 if (isset($_GET['department'])) {
     $department = $_GET['department'];
@@ -19,7 +19,7 @@ if (isset($_GET['department'])) {
                 <tr>
                     <th>Student ID</th>
                     <th>Name</th>
-                    <th>Department</th>
+                    <th>Jurusan</th>
                 </tr>";
 
         while ($row = $selectStatement->fetch(PDO::FETCH_ASSOC)) {
